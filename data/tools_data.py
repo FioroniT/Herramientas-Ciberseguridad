@@ -48,6 +48,12 @@ tools_data: List[ToolCategory] = [
                 info_link="https://www.chiark.greenend.org.uk/~sgtatham/putty"
             ),
             Tool(
+                name="RustDesk",
+                description="Una aplicacion open-source que te permite acceder a otra computadora la cual funciona recien instalada sin configuracion requerida. En esta aplicacion tenes control total de tu data, sin preocupaciones con respecto a la seguridad. Para usuarios avanzados, este tiene la opcion de setear su propio server para utilizarlo",
+                download_link="https://github.com/rustdesk/rustdesk",
+                info_link="https://github.com/rustdesk/rustdesk"
+            ),
+            Tool(
                 name="WireGuard",
                 description="Protocolo VPN moderno y minimalista que se caracteriza por su rapidez, simplicidad en la configuración y alto nivel de seguridad. Está integrado en el kernel de Linux y se considera más eficiente que opciones tradicionales como OpenVPN o IPSec. Ideal para proteger comunicaciones en redes corporativas y conexiones móviles.",
                 download_link="https://www.wireguard.com/install",
@@ -110,6 +116,12 @@ tools_data: List[ToolCategory] = [
                 description="Distribución Linux enfocada en seguridad de red, que funciona como firewall, proxy y sistema de detección de intrusiones. Destaca por su sistema modular de colores (zonas de red) que simplifica la gestión de reglas de seguridad. Es fácil de usar en redes pequeñas y medianas.", 
                 download_link="https://www.ipfire.org/downloads/ipfire-2.29-core196",
                 info_link="https://www.ipfire.org"
+            ),
+            Tool(
+                name="UFW",
+                description="Herramienta de consola amigable con el usuario que maneja el firewall de iptables en los sistemas Linux. UFW viene de Uncomplicated Firewall (Firewall no complicado) y esa es su mayor virtud, ya que simplifica la creacion de reglas y su manejo, al igual que tiene una interfaz directa para permitir o denegar trafico basado en puertos, IPs, etc",
+                download_link="#",
+                info_link="https://wiki.ubuntu.com/UncomplicatedFirewall"
             )
         ]
     ),
@@ -185,6 +197,12 @@ tools_data: List[ToolCategory] = [
                 description="Kaspersky es un conjunto de herramientas de seguridad integral que combina antivirus, protección contra malware, firewall y herramientas de seguridad en línea. Su motor antivirus está basado en firmas de malware actualizadas continuamente y técnicas de análisis heurístico, lo que le permite detectar tanto amenazas conocidas como nuevas variantes.",
                 download_link="https://latam.kaspersky.com/downloads",
                 info_link="https://latam.kaspersky.com/"
+            ),
+            Tool(
+                name="Bitdefender Antivirus",
+                description="Bitdefender es una compañia de cyberseguridad que ofrece un conjunto de productos de seguridad antivirus y de proteccion en internet. Sus principales benefios son que tiene una tasa de deteccion de malware muy alta y que tiene un impacto minimo en el rendimiento del sistema",
+                download_link="https://www.bitdefender.com/en-us/consumer/antivirus",
+                info_link="#"
             )
         ]
     ),
@@ -203,6 +221,12 @@ tools_data: List[ToolCategory] = [
                 description="Gestor de contraseñas multiplataforma con enfoque en la nube. Permite sincronizar credenciales entre dispositivos de manera segura, soporta 2FA, bóvedas compartidas y almacenamiento cifrado. Al ser open source, es muy utilizado por empresas y usuarios particulares como alternativa a LastPass o 1Password.",
                 download_link="https://bitwarden.com/download/",
                 info_link="https://bitwarden.com"
+            ),
+            Tool(
+                name="1Password",
+                description="Gestor de contraseñas con una fuerte seguridad de varias capas. Esta cuenta con una interfaz de usuario sencilla en todos los dispositivos y tiene beneficios tales como poder compartir de forma segura contraseñas entre individuos, una sincronizacion sin fallas entre dispositivos y una aplicacion llamada Watchtower la cual sirve para detectar contraseñas debiles o filtradas",
+                download_link="https://1password.com",
+                info_link="https://1password.com/resources/guides/why-1password-is-worth-paying-for/"
             )
         ]
     ),
